@@ -1,0 +1,39 @@
+{
+  "name": "doctor-appointment-system",
+  "version": "1.0.0",
+  "description": "this is a appointment system for doctor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "doctors",
+    "appointment",
+    "system"
+  ],
+  "author": "abdulislam",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie": "^1.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "nodemailer": "^7.0.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "socket.io": "^4.8.1",
+    "stripe": "^18.1.0",
+    "validator": "^13.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  }
+}
